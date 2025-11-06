@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #e8f5e8;
+    color: #2e7d32;
     line-height: 1.6;
 }
 
@@ -20,7 +20,7 @@ body {
 
 
 header {
-    background-color: #007bff;
+    background-color: #4caf50;
     color: white;
     text-align: center;
     padding: 2.5rem 0;
@@ -47,7 +47,7 @@ header p {
 }
 
 .about h2 {
-    color: #007bff;
+    color: #4caf50;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -59,14 +59,14 @@ header p {
 
 
 .projects {
-    background: #eaf1ff;
+    background: #fff3e0;
     padding: 3rem 0;
     margin-top: 2rem;
 }
 
 .projects h2 {
     text-align: center;
-    color: #007bff;
+    color: #4caf50;
     margin-bottom: 2rem;
     font-size: 1.8rem;
 }
@@ -90,14 +90,14 @@ header p {
 }
 
 .project h3 {
-    color: #007bff;
+    color: #4caf50;
     margin-bottom: 0.5rem;
 }
 
 
 footer {
-    background-color: #333;
-    color: #f4f4f9;
+    background-color: #2e7d32;
+    color: #e8f5e8;
     text-align: center;
     padding: 1.5rem 0;
     margin-top: 3rem;
