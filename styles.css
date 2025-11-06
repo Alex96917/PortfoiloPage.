@@ -72,8 +72,8 @@ header p {
 }
 
 .project-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    display: flex;
+    flex-direction: row;
     gap: 1.5rem;
 }
 
@@ -87,6 +87,7 @@ header p {
 
 .project:hover {
     transform: translateY(-5px);
+    background-color: #c8e6c9;
 }
 
 .project h3 {
@@ -102,6 +103,23 @@ footer {
     padding: 1.5rem 0;
     margin-top: 3rem;
     font-size: 0.95rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.social-media a {
+    color: #4caf50;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #66bb6a;
 }
 
 
